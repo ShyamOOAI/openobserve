@@ -87,7 +87,7 @@ jobs:
       matrix:
         browser: [chrome]
         testfilename: 
-          ["sanity.spec.js"]
+          ["sanity.spec.js", "logsquickmode.spec.js", "logspage.spec.js", "logsqueries.spec.js"]
           
     steps:
       - name: Clone the current repo
