@@ -158,6 +158,9 @@ test.describe(" VRL UI testcases", () => {
     await page
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
+
+      await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
@@ -215,12 +218,17 @@ test.describe(" VRL UI testcases", () => {
     await page
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
+
+      await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
       .locator("i")
       .click();
-      await page.getByRole('option', { name: 'e2e_automate' }).click();
+
+    await page.getByRole('option', { name: 'e2e_automate' }).click();
+
     await page
       .locator(
         '[data-test="field-list-item-logs-e2e_automate-kubernetes_annotations_kubectl_kubernetes_io_default_container"] [data-test="dashboard-add-b-data"]'
@@ -370,6 +378,9 @@ test.describe(" VRL UI testcases", () => {
     await page
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
+
+      await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
@@ -446,6 +457,10 @@ test.describe(" VRL UI testcases", () => {
     await page
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
+
+      await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+
+
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
@@ -552,6 +567,9 @@ test.describe(" VRL UI testcases", () => {
     await page
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
+      await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+
+
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
@@ -626,6 +644,8 @@ test.describe(" VRL UI testcases", () => {
     await page
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
+      await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
@@ -708,6 +728,9 @@ test.describe(" VRL UI testcases", () => {
     await page
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
+
+      await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
@@ -760,6 +783,9 @@ test.describe(" VRL UI testcases", () => {
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
     await page.locator('[data-test="selected-chart-table-item"] img').click();
+
+    await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
@@ -828,6 +854,9 @@ test.describe(" VRL UI testcases", () => {
     await page
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
+      await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+
+
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
@@ -898,6 +927,9 @@ test.describe(" VRL UI testcases", () => {
     await page
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
+
+      await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
@@ -967,6 +999,9 @@ test.describe(" VRL UI testcases", () => {
     await page
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
+
+      await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+      
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
@@ -1063,6 +1098,9 @@ test.describe(" VRL UI testcases", () => {
     await page
       .locator('[data-test="dashboard-if-no-panel-add-panel-btn"]')
       .click();
+
+      await page.waitForSelector('label:has-text("Streamarrow_drop_down") i');
+
     await page
       .locator("label")
       .filter({ hasText: "Streamarrow_drop_down" })
